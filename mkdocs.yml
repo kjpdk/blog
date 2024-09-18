@@ -1,68 +1,21 @@
 site_name: Kim Petersen
+site_url: https://blog.bartogh.dk
 theme:
   name: material
-  favicon: images/favicon.png
-  language: en
-  icon:
-    logo: fontawesome/solid/hat-cowboy
   features:
-    - content.code.annotate
-    - content.code.copy
-    - content.tabs.link
-    - header.autohide
-    - announce.dismiss
-    - navigation.footer
-    - navigation.indexes
-    - navigation.sections
-    - navigation.tabs
-    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
     - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-  palette: 
-    
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: black
-      accent: deep orange
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-    
-    # Palette toggle for light mode
-    - scheme: default
-      primary: blue
-      accent: deep orange
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-        
-  plugins:
-    - typeset
-    - search
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
 
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - toc:
-     permalink: true
-
-copyright: Copyright &copy; 2024 Kim John Petersen
-extra_css:
-  - stylesheets/extra.css
-extra:
-  generator: false
-  social:
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@kjpdk
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/kjpdk
-    - icon: fontawesome/brands/slack
-      link: https://slack.com/kjpdk
-
+nav:
+  - Home: index.md
+  - Tests:
+    - Tests1: Test/test1.md
+    - Tests2: Test/test2.md
+  - About:
+    - About Me: about/about-me.md
+    - Childhood: about/childhood.md
