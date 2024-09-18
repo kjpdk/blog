@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://blog.bartogh.dk/</loc>
+         <lastmod>2024-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.bartogh.dk/Test/test1/</loc>
+         <lastmod>2024-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.bartogh.dk/Test/test2/</loc>
+         <lastmod>2024-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.bartogh.dk/about/about-me/</loc>
+         <lastmod>2024-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.bartogh.dk/about/childhood/</loc>
+         <lastmod>2024-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.bartogh.dk/blog/</loc>
+         <lastmod>2024-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.bartogh.dk/blog/posts/hello-world/</loc>
+         <lastmod>2024-09-18</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.bartogh.dk/blog/posts/heythere/</loc>
+         <lastmod>2024-09-18</lastmod>
+    </url>
+</urlset>
